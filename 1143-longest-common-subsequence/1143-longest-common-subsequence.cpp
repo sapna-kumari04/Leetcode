@@ -11,4 +11,4 @@ public:
          memset(dp,-1,sizeof(dp));
          return lcs(text1, text2, text1.size(), text2.size());
     }
-};
+}; 
